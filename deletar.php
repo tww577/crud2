@@ -10,7 +10,7 @@
 
     $id = $_GET["id"];
 
-    $sql = "DELETE FROM pessoa WHERE pk_pessoa = $id";
+    $sql = "DELETE FROM carro WHERE pk_carro = $id";
     mysqli_query($conn, $sql);
 
     if(mysqli_error($conn)=="")
